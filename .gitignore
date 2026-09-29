@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Local scratch
+/tmp/
+
+# Regenerable build artifacts -- not deliverables, keep the repo lean.
+# Re-run `src/experiment.py` / `src/build_hypotheses_pdf.py` to recreate.
+outputs/cache/
+report/hypotheses.html
+
+# Reference paper -- large external PDF, kept locally, not redistributed
+# via this repo. See README for the citation.
+mathematics-09-01226-v2.pdf
+
+# Local working notes -- Claude Code guidance and the raw assignment brief,
+# not part of the submission.
+CLAUDE.md
+Assignment-Insturction.md

@@ -1,0 +1,10 @@
+feature,distinct_values,range,value_counts
+Education,5,1-5,"{1: 170, 2: 282, 3: 572, 4: 398, 5: 48}"
+EnvironmentSatisfaction,4,1-4,"{1: 284, 2: 287, 3: 453, 4: 446}"
+JobInvolvement,4,1-4,"{1: 83, 2: 375, 3: 868, 4: 144}"
+JobLevel,5,1-5,"{1: 543, 2: 534, 3: 218, 4: 106, 5: 69}"
+JobSatisfaction,4,1-4,"{1: 289, 2: 280, 3: 442, 4: 459}"
+PerformanceRating,2,3-4,"{3: 1244, 4: 226}"
+RelationshipSatisfaction,4,1-4,"{1: 276, 2: 303, 3: 459, 4: 432}"
+StockOptionLevel,4,0-3,"{0: 631, 1: 596, 2: 158, 3: 85}"
+WorkLifeBalance,4,1-4,"{1: 80, 2: 344, 3: 893, 4: 153}"

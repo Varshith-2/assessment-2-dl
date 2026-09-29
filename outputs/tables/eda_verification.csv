@@ -1,0 +1,10 @@
+property,dataset,paper,note
+Observations,1470,1470,match
+Columns (incl. target),35,35,match
+Feature count,34,34 listed,"paper drops 2 constants -> 32, and counts EmployeeNumber as a feature; we treat it as an ID -> 31"
+Constant columns,"EmployeeCount, Over18, StandardHours","StandardHours, EmployeeCount",Over18 is also constant; the paper never names it
+Missing cells,0,not discussed,none -> no imputation step
+Exact duplicate rows,0,not discussed,none
+Duplicates ignoring EmployeeNumber,0,not discussed,none -> rows are distinct employees
+Target,Attrition,Attrition,match
+Class distribution,"{'No': 1233, 'Yes': 237}",imbalanced,16.1% positive (Yes)

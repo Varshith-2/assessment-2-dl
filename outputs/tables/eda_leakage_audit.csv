@@ -1,0 +1,6 @@
+item,type,assessment
+EmployeeNumber,row identifier,no predictive meaning; dropped. Paper keeps it as a feature.
+StandardHours / EmployeeCount,constant,"zero information; paper drops before selection, we match."
+Over18,constant ('Y'),zero information; paper keeps it until selection removes the dummy.
+all remaining features,employee attributes / history,"measured at or before the observation point -- no post-outcome feature, so no target leakage inside the feature set."
+temporal structure,none,"cross-sectional snapshot, no timestamp -> the brief's time-series checks (trend, seasonality, autocorrelation) do not apply. The real leakage risk here is procedural: preprocessing fit before the split."

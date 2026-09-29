@@ -1,0 +1,8 @@
+feature,levels,min_rate,max_rate,spread
+JobRole,9,0.025,0.398,0.373
+OverTime,2,0.104,0.305,0.201
+BusinessTravel,3,0.08,0.249,0.169
+MaritalStatus,3,0.101,0.255,0.154
+EducationField,6,0.134,0.259,0.125
+Department,3,0.138,0.206,0.068
+Gender,2,0.148,0.17,0.022

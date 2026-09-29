@@ -1,0 +1,11 @@
+feature,n_outliers,pct,max,upper_fence,skew
+MonthlyIncome,114,7.8,19999,16581.0,1.37
+YearsSinceLastPromotion,107,7.3,15,7.5,1.98
+YearsAtCompany,104,7.1,40,18.0,1.76
+TotalWorkingYears,63,4.3,40,28.5,1.12
+NumCompaniesWorked,52,3.5,9,8.5,1.03
+YearsInCurrentRole,21,1.4,18,14.5,0.92
+YearsWithCurrManager,14,1.0,17,14.5,0.83
+MonthlyRate,0,0.0,26999,39083.2,0.02
+DailyRate,0,0.0,1499,2195.0,-0.0
+DistanceFromHome,0,0.0,29,32.0,0.96
